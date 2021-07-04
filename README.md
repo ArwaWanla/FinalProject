@@ -30,9 +30,8 @@
   - npm (react-route-dom)
   - npm (react-Facebook-Login)
   - npm (axios)
-  - API (using MVC as backend
-  - MySQL Server (to create Database using code first approach)
   - ASP.Net to creat Web App API
+  - MySQL Server (to create Database using code first approach)
   - HTML
   - CSS
   - JavaScript
