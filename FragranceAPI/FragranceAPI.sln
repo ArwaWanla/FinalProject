@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.809.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FragranceAPI", "FragranceAPI\FragranceAPI.csproj", "{7B3BFD63-6FA9-4B33-B636-ABD4FE0BD805}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fragranceAPI", "fragranceAPI\fragranceAPI.csproj", "{D75A3E28-4A57-4F4B-8F9B-77F9FC7BF0F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B3BFD63-6FA9-4B33-B636-ABD4FE0BD805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B3BFD63-6FA9-4B33-B636-ABD4FE0BD805}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B3BFD63-6FA9-4B33-B636-ABD4FE0BD805}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B3BFD63-6FA9-4B33-B636-ABD4FE0BD805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75A3E28-4A57-4F4B-8F9B-77F9FC7BF0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75A3E28-4A57-4F4B-8F9B-77F9FC7BF0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75A3E28-4A57-4F4B-8F9B-77F9FC7BF0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75A3E28-4A57-4F4B-8F9B-77F9FC7BF0F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1B969A84-3567-462F-9E9A-EE2A7D2547B4}
+		SolutionGuid = {46E9BA48-C816-4219-BA36-C511C5F38D01}
 	EndGlobalSection
 EndGlobal

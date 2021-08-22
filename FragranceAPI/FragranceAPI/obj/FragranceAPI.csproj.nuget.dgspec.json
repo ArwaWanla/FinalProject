@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arwawanla/recap_react/FragranceAPI/FragranceAPI/FragranceAPI.csproj": {}
+    "/Users/arwawanla/Projects/fragranceAPI/fragranceAPI/fragranceAPI.csproj": {}
   },
   "projects": {
-    "/Users/arwawanla/recap_react/FragranceAPI/FragranceAPI/FragranceAPI.csproj": {
+    "/Users/arwawanla/Projects/fragranceAPI/fragranceAPI/fragranceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arwawanla/recap_react/FragranceAPI/FragranceAPI/FragranceAPI.csproj",
-        "projectName": "FragranceAPI",
-        "projectPath": "/Users/arwawanla/recap_react/FragranceAPI/FragranceAPI/FragranceAPI.csproj",
+        "projectUniqueName": "/Users/arwawanla/Projects/fragranceAPI/fragranceAPI/fragranceAPI.csproj",
+        "projectName": "fragranceAPI",
+        "projectPath": "/Users/arwawanla/Projects/fragranceAPI/fragranceAPI/fragranceAPI.csproj",
         "packagesPath": "/Users/arwawanla/.nuget/packages/",
-        "outputPath": "/Users/arwawanla/recap_react/FragranceAPI/FragranceAPI/obj/",
+        "outputPath": "/Users/arwawanla/Projects/fragranceAPI/fragranceAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arwawanla/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -35,20 +35,44 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[5.0.7, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.1.4, )"
+              "version": "[5.6.3, )"
             }
           },
           "imports": [

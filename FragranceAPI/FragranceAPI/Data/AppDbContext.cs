@@ -14,10 +14,7 @@ namespace FragranceStoreAPI.Data
         {
 
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
+        
 
         public DbSet<Fragrance> fragrances { get; set; }
         // public DbSet<FragranceReviews> Reviews { get; set; }
